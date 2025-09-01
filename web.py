@@ -3,7 +3,6 @@ from mlib.mchange import change
 
 app = Flask(__name__)
 
-
 @app.route("/")
 def index():
     return jsonify({"hello": "bob"})
